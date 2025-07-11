@@ -1388,7 +1388,7 @@ MOBILE RESPONSIVENESS ↓
     transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
     height: 256px;
     width: 256px;
-    opacity: 0.25;
+    opacity: 1;
 }
 .start__blob--1 {
     position: absolute;
