@@ -877,7 +877,7 @@ footer {
     width: 100%;
     background: #fff;
     transition: all 300ms;
-    opacity: 1;
+    opacity: 0;
 }
 .footer__column--link:hover:after {
     opacity: 1;
@@ -913,7 +913,25 @@ footer {
     font-weight: 500;
 }
 .footer__socials {
-    
+    display: flex;
+    align-items: center;
+    margin-left: -16px;
+}
+.footer__social--link {
+    margin-left: 16px;
+    padding: 8px;
+    background: #f7fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.footer__social--link svg {
+    height: 16px;
+    width: 16px;
 }
 
 
